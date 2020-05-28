@@ -54,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onBeginningOfSpeech() {
+                editText.setText("");
                 editText.setHint("Listening...");
             }
 
